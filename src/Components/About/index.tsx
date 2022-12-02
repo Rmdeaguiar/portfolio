@@ -18,7 +18,7 @@ function About() {
   return (
     <div className="container-about">
       <div className='left-about'>
-        <img src={Profile} alt='profile-photo' />
+        <img src={Profile} alt='rafael' />
       </div>
       <div className='right-about'>
         <div className='content'>
