@@ -1,0 +1,38 @@
+.container-header {
+    height: 60px;
+    background-color: rgb(1, 1, 90);
+    color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid #ffd70080;
+}
+
+.titles {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.titles a {
+    cursor: pointer;
+    text-decoration: none;
+    color: lightgray;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.titles a:hover {
+    transform: scale(1.1);
+}
+
+.social img {
+    width: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}

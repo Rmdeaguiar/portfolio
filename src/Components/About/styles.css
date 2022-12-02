@@ -1,0 +1,134 @@
+.container-about {
+    background-color: rgb(1, 1, 90, 0.95);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    height: calc(100vh - 60px);
+    position: relative;
+}
+
+.left-about {
+    display: flex;
+    width: 30%;
+    padding: 20px;
+}
+
+.left-about img {
+    border-radius: 30px;
+}
+
+.right-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    position: relative;
+    left: 30px;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    width: 95%;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.technologies {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211, 0.1);
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+}
+
+.technology img {
+    width: 35px;
+    margin-bottom: 5px;
+}
+
+.technology h3 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 900px) {
+    .left-about img {
+        width: 300px;
+        border-radius: 20px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .container-about {
+        padding: 10px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-about,
+    .right-about {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .left-about img {
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .content {
+        flex-wrap: wrap;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .content h2 {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .content p {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .technologies {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
