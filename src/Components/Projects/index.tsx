@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles.css';
 import Css from '../../assets/css.svg'
 import TypeScript from '../../assets/typescript.svg'

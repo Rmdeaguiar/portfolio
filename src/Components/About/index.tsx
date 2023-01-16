@@ -1,4 +1,3 @@
-import React from 'react';
 import Profile from '../../assets/profile.png'
 import './styles.css';
 import Html from '../../assets/html.svg'
@@ -26,6 +25,7 @@ function About() {
           <h2>Sou Desenvolvedor Full Stack | Front-End | Back-End</h2>
           <p>De Salvador/BA, apaixonado por esportes e por aprender algo novo a cada dia!</p>
           <p>Atualmente estou em transição de carreira para área de tecnologia, uma área que aprendi a amar. Poder estar em constante aprendizado, enfrentando desafios e solucionando problemas é o que me move.</p>
+          <p>Certificado pelo curso de Desenvolvimento de Software FullStack da Cubos Academy, onde foram abordadas as seguintes tecnologias: HTML, CSS, React Js, JavaScript, Node Js, PostgreSQL. E também, a metodologia ágil Scrum sendo aplicada nos desafios.</p>
         </div>
         <h2>Estas são as tecnologias que utilizo:</h2>
         <div className='technologies'>
