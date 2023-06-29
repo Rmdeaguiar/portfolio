@@ -12,6 +12,7 @@ function Header() {
 
         <a href='#about'>sobre mim</a>
         <a href='#projects'>projetos</a>
+        <a href='#experiences'>experiência</a>
       </div>
       <div className='social'>
         <a href='https://www.linkedin.com/in/rafael-maguiar/' target="_blank" rel='noreferrer'><img src={Linkedin} alt='linkedin' /></a>

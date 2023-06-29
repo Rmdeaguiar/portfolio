@@ -1,0 +1,51 @@
+.container-experiences {
+    background-color: rgb(1, 1, 90, 0.95);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.container-experiences h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.all-experiences {
+    display: flex;
+    padding: 0px 3px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.experience p {
+    margin-top: 8px;
+    font-size: 1.4rem;
+    width: 80%;
+}
+
+.local-experience {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-bottom: 1px solid white;
+    width: 70%;
+}
+
+.local-experience img {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.local-experience h2 {
+    height: 10px;
+    font-size: 1.8rem;
+}

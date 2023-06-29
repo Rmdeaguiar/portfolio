@@ -22,9 +22,8 @@ function About() {
       <div className='right-about'>
         <div className='content'>
           <h1>Olá! Meu nome é Rafael Aguiar!</h1>
-          <h2>Sou Desenvolvedor Full Stack | Front-End | Back-End</h2>
-          <p>De Salvador/BA, apaixonado por esportes e por aprender algo novo a cada dia!</p>
-          <p>Atualmente estou em transição de carreira para área de tecnologia, uma área que aprendi a amar. Poder estar em constante aprendizado, enfrentando desafios e solucionando problemas é o que me move.</p>
+          <h2>Desenvolvedor Full Stack | Front-End | Back-End</h2>
+          <p>Baiano, apaixonado por esportes e desenvolvedor. Acredito que a tecnologia é a principal ponte para transformar, melhorar e resolver problemas da vida das pessoas e da sociedade.</p>
           <p>Certificado pelo curso de Desenvolvimento de Software FullStack da Cubos Academy, onde foram abordadas as seguintes tecnologias: HTML, CSS, React Js, JavaScript, Node Js, PostgreSQL. E também, a metodologia ágil Scrum sendo aplicada nos desafios.</p>
         </div>
         <h2>Estas são as tecnologias que utilizo:</h2>
