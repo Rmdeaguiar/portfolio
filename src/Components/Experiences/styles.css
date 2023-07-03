@@ -49,3 +49,30 @@
     height: 10px;
     font-size: 1.8rem;
 }
+
+@media (max-width: 900px) {
+    .container-experiences {
+        padding: 20px;
+    }
+
+    .container-experiences h2 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .experience {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .local-experience {
+        width: 90%;
+    }
+
+    .all-experiences {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 3px;
+    }
+
+}
