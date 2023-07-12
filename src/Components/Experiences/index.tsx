@@ -14,7 +14,7 @@ function Experiences() {
             <h2>Residência Software Cubos Academy</h2>
           </div>
           <h2>Desenvolvedor Full Stack</h2>
-          <h3>Fevereiro/2023 - Maio/2023</h3>
+          <h3>Janeiro/2023 - Abril/2023</h3>
           <p>Desenvolvimento web de aplicações utilizando React Js, JavaScript, Node
             Js, PostgreSQL, Cypress.io, Git</p>
         </div>
@@ -25,7 +25,7 @@ function Experiences() {
           </div>
           <h2>Desenvolvedor</h2>
           <h3>Maio/2023 - Atual</h3>
-          <p>Desenvolvimento de aplicativo utilizando .NET, C#, Git</p>
+          <p>Desenvolvimento de aplicativo utilizando .NET, C#, SQL, Git</p>
         </div>
       </div>
 
