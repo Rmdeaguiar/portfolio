@@ -29,7 +29,7 @@ function Projects() {
             <div>
               <div className='links-project'>
                 <a href='https://github.com/Rmdeaguiar/mkt-desafio' target="_blank" rel='noreferrer'><img src={GitHub} alt='github' />Código</a>
-                {/* <a href='https://www.vitorsilveiraadv.com.br/' target="_blank" rel='noreferrer'><img src={Link} alt='link' />Link projeto</a> */}
+                <a href='https://mks-desafio.netlify.app/' target="_blank" rel='noreferrer'><img src={Link} alt='link' />Link projeto</a>
               </div>
               <div className='languages-project'>
                 <img src={ReactJs} alt='reactjs' />
