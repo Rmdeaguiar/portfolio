@@ -20,7 +20,7 @@ function Projects() {
         <section>
           <div className='project'>
             <div className='content-project'>
-              <h2>Desafio MKT Sistemas</h2>
+              <h2>Desafio MKS Sistemas</h2>
               <div className='description'>
                 <p>Desafio para construção de um site para loja, onde é possível adicionar itens ao carrinho e gerenciar suas quantidades. Os produtos são obtidos através de uma api, e o design foi feito a partir de um figma já pronto.</p>
                 <p>Foi solicitada a utilização do React com TypeScript, Styled-Components e Redux</p>
