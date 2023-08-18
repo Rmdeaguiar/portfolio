@@ -44,6 +44,27 @@ function Projects() {
         <section>
           <div className='project'>
             <div className='content-project'>
+              <h2>Timer</h2>
+              <div className='description'>
+                <p>Crônometro para marcar o tempo realizado com React Js e CSS.</p>
+              </div>
+            </div>
+            <div>
+              <div className='links-project'>
+                <a href='https://github.com/Rmdeaguiar/timer' target="_blank" rel='noreferrer'><img src={GitHub} alt='github' />Código</a>
+                <a href='https://stopwatch-timer-60.netlify.app/' target="_blank" rel='noreferrer'><img src={Link} alt='link' />Link projeto</a>
+              </div>
+              <div className='languages-project'>
+                <img src={ReactJs} alt='reactjs' />
+                <img src={Css} alt='css' />
+                <img src={Git} alt='git' />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className='project'>
+            <div className='content-project'>
               <h2>Vitor Silveira Adv.</h2>
               <div className='description'>
                 <p>Site profissional realizado para o advogado Vitor Silveira.</p>
