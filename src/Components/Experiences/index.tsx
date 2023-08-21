@@ -16,16 +16,16 @@ function Experiences() {
           <h2>Desenvolvedor Full Stack</h2>
           <h3>Janeiro/2023 - Abril/2023</h3>
           <p>Desenvolvimento web de aplicações utilizando React Js, JavaScript, Node
-            Js, PostgreSQL, Cypress.io, Git</p>
+            Js, PostgreSQL, Cypress.io e Git, seguindo a Metodologia Scrum</p>
         </div>
         <div className='experience'>
           <div className='local-experience'>
             <img src={Analysis} alt='analysisbi' />
             <h2>Analysis BI</h2>
           </div>
-          <h2>Desenvolvedor</h2>
+          <h2>Analista de Sistema</h2>
           <h3>Maio/2023 - Atual</h3>
-          <p>Desenvolvimento de aplicativo utilizando .NET, C#, SQL, Git</p>
+          <p>Desenvolvimento de aplicação utilizando .NET, C#, JavaScript, SQL, Git</p>
         </div>
       </div>
 
