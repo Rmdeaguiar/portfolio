@@ -23,16 +23,24 @@
     font-size: 1.5rem;
 }
 
-.titles a:hover {
+.titles a:hover, .social img:hover, .languages img:hover {
     transform: scale(1.1);
 }
 
 .social img {
-    width: 25px;
+    width: 30px;
     margin-right: 5px;
     cursor: pointer;
 }
 
-.social img:hover {
-    transform: scale(1.1);
+
+.languages {
+    margin-left: 25px;
+}
+
+.languages img {
+    width: 55px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 5px;
 }
