@@ -3,22 +3,35 @@ import Header from '../Components/Header'
 import About from '../Components/About';
 import Projects from '../Components/Projects';
 import Experiences from '../Components/Experiences';
-
+import { useLanguage } from '../stores/languageStore';
 
 function Home() {
+  const { english, setEnglish } = useLanguage();
+
   return (
     <div className="container-home">
-      <Header />
+      <Header
+        english={english}
+        setEnglish={setEnglish}
+      />
       <div id='about'>
-        <About />
+        <About
+          english={english}
+        />
       </div>
       <div id='projects'>
-        <Projects />
+        <Projects 
+         english={english}
+         />
       </div>
       <div id='experiences'>
-        <Experiences/>
+        <Experiences
+        english={english}
+         />
       </div>
-      <Header />
+      <Header
+        english={english}
+        setEnglish={setEnglish} />
     </div>
   );
 }

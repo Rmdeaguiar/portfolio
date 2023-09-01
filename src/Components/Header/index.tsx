@@ -4,13 +4,15 @@ import GitHub from '../../assets/github.svg'
 import Email from '../../assets/email.svg'
 import Brazil from '../../assets/brazil.svg'
 import UnitedStates from '../../assets/usa.svg'
-import { useLanguage } from '../../stores/languageStore';
+import { Props } from '../../types/props';
+
 import './styles.css';
 
-function Header() {
 
-  const { english, setEnglish } = useLanguage();
-  
+function Header({english, setEnglish}: Props) {
+
+  //const { english, setEnglish } = useLanguage();
+
   return (
     <div className="container-header">
       <div className='titles'>
@@ -24,8 +26,8 @@ function Header() {
         <a href='mailto:rafael.aguiar91@gmail.com'><img src={Email} alt='email' /></a>
       </div>
       <div className='languages'>
-        <img src={Brazil} alt='portuguese' onClick={() => setEnglish(false)} />
-        <img src={UnitedStates} alt='english' onClick={() => setEnglish(true)} />
+        <img src={Brazil} alt='portuguese' onClick={() => setEnglish!(false)} />
+        <img src={UnitedStates} alt='english' onClick={() => setEnglish!(true)} />
       </div>
     </div >
   );
