@@ -11,8 +11,6 @@ import './styles.css';
 
 function Header({english, setEnglish}: Props) {
 
-  //const { english, setEnglish } = useLanguage();
-
   return (
     <div className="container-header">
       <div className='titles'>
