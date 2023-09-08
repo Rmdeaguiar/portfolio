@@ -25,7 +25,7 @@ function Experiences({english}: Props) {
           </div>
           <h2>{english ? 'System Analyst' : 'Analista de Sistema'}</h2>
           <h3>{english ? 'May/2023 - Now' : 'Maio/2023 - Atual'}</h3>
-          <p>{english ? 'Developing applications using C#, .NET, SQL Server, JavaScript Git' : 'Desenvolvimento de aplicação utilizando .NET, C#, JavaScript, SQL, Git'}</p>
+          <p>{english ? 'Developing applications using C#, .NET, SQL Server, JavaScript, Git' : 'Desenvolvimento de aplicação utilizando .NET, C#, JavaScript, SQL, Git'}</p>
         </div>
       </div>
 
