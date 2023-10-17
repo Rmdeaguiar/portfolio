@@ -95,7 +95,6 @@ function Projects({ english }: Props) {
               <div className='links-project'>
                 <a href='https://github.com/Rmdeaguiar/front-todolist' target="_blank" rel='noreferrer'><img src={GitHub} alt='github' />Front-End</a>
                 <a href='https://github.com/Rmdeaguiar/back-todolist' target="_blank" rel='noreferrer'><img src={GitHub} alt='github' />Back-End</a>
-                <a href='https://sualistadetarefas.netlify.app/' target="_blank" rel='noreferrer'><img src={Link} alt='link' />{english ? 'Project' : 'Projeto'}</a>
               </div>
               <div className='languages-project'>
                 <img src={ReactJs} alt='reactjs' />
