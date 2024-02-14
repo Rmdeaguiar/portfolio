@@ -21,6 +21,29 @@ function Projects({ english }: Props) {
         <section>
           <div className='project'>
             <div className='content-project'>
+              <h2>{english ? 'Activity Money' : 'App para controle monetário'}</h2>
+              <div className='description'>
+                <p>{english ? 'Application for recording income and bank debts, with additional features such as filter by type and summary of operations.' : 'Aplicação para registro de receitas e débitos bancários, com funcionalidades adicionais como filtro por tipo e resumo de operações.'}</p>
+              </div>
+            </div>
+            <div>
+              <div className='links-project'>
+                <a href='https://github.com/Rmdeaguiar/activity_money' target="_blank" rel='noreferrer'><img src={GitHub} alt='github' />Front-End</a>
+                <a href='https://github.com/Rmdeaguiar/activity_money_api' target="_blank" rel='noreferrer'><img src={GitHub} alt='github' />Back-End</a>
+              </div>
+              <div className='languages-project'>
+                <img src={ReactJs} alt='reactjs' />
+                <img src={TypeScript} alt='typescript' />
+                <img src={Git} alt='git' />
+                <img src={NodeJs} alt='nodejs' />
+                <img src={Postgre} alt='postgresql' />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className='project'>
+            <div className='content-project'>
               <h2>{english ? 'Challenge from MK Sistemas' : 'Desafio MKS Sistemas'}</h2>
               <div className='description'>
                 <p>{english ? 'Challenge to build a website for a store, where you can add items to your cart and manage your requirements. The products are obtained through an API, and the design was made from a ready-made figure.' : 'Desafio para construção de um site para loja, onde é possível adicionar itens ao carrinho e gerenciar suas quantidades. Os produtos são obtidos através de uma api, e o design foi feito a partir de um figma já pronto.'}</p>
@@ -146,7 +169,7 @@ versioning control were also used. ` : 'Projeto final de conclusão do curso de 
             <div className='content-project'>
               <h2>NG App</h2>
               <div className='description'>
-                <p>{english ?'Application built for the NG Challenge. An application simulating a bank, where the user can register, enter and have access to some functionalities, such as viewing his balance sheet, transfers, and also to carry out a new bank transaction.' : 'Aplicação construída para o Desafio NG. Uma aplicação simulando um banco, onde o usuário pode se cadastrar, entrar e ter acesso a algumas funcionalidades, como visualização do seu balanço, de suas transferências, e também para realizar uma nova transação bancária.'}</p>
+                <p>{english ? 'Application built for the NG Challenge. An application simulating a bank, where the user can register, enter and have access to some functionalities, such as viewing his balance sheet, transfers, and also to carry out a new bank transaction.' : 'Aplicação construída para o Desafio NG. Uma aplicação simulando um banco, onde o usuário pode se cadastrar, entrar e ter acesso a algumas funcionalidades, como visualização do seu balanço, de suas transferências, e também para realizar uma nova transação bancária.'}</p>
               </div>
             </div>
             <div>
