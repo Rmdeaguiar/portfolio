@@ -37,6 +37,7 @@ function Projects({ english }: Props) {
                 <img src={Git} alt='git' />
                 <img src={NodeJs} alt='nodejs' />
                 <img src={Postgre} alt='postgresql' />
+                <span>EXPRESS</span>
               </div>
             </div>
           </div>
